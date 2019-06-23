@@ -11,6 +11,8 @@
 		CA30E0A222BEB1F80063895F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30E0A122BEB1F80063895F /* ChatVC.swift */; };
 		CA30E0A422BEB2130063895F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30E0A322BEB2130063895F /* ChannelVC.swift */; };
 		CAA8781822BF762B00D5F3F7 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8781722BF762B00D5F3F7 /* gradientView.swift */; };
+		CAA8781C22BF8C9400D5F3F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8781B22BF8C9400D5F3F7 /* Constants.swift */; };
+		CAA8781E22BF921D00D5F3F7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8781D22BF921D00D5F3F7 /* LoginVC.swift */; };
 		CAB8E83722BEAA570078CF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8E83622BEAA570078CF91 /* AppDelegate.swift */; };
 		CAB8E83C22BEAA570078CF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB8E83A22BEAA570078CF91 /* Main.storyboard */; };
 		CAB8E83E22BEAA570078CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB8E83D22BEAA570078CF91 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		CA30E0A122BEB1F80063895F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		CA30E0A322BEB2130063895F /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		CAA8781722BF762B00D5F3F7 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
+		CAA8781B22BF8C9400D5F3F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CAA8781D22BF921D00D5F3F7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CAB8E83322BEAA570078CF91 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB8E83622BEAA570078CF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAB8E83B22BEAA570078CF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,8 +99,17 @@
 			children = (
 				CA30E0A122BEB1F80063895F /* ChatVC.swift */,
 				CA30E0A322BEB2130063895F /* ChannelVC.swift */,
+				CAA8781D22BF921D00D5F3F7 /* LoginVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAA8781A22BF8C5A00D5F3F7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CAA8781B22BF8C9400D5F3F7 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		CAB8E82A22BEAA570078CF91 = {
@@ -121,6 +134,7 @@
 		CAB8E83522BEAA570078CF91 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				CAA8781A22BF8C5A00D5F3F7 /* Utilities */,
 				CA30E0A022BEB1D30063895F /* Controller */,
 				CA30E09F22BEB1CD0063895F /* View */,
 				CA30E09E22BEB1C50063895F /* Model */,
@@ -254,9 +268,11 @@
 			files = (
 				CA30E0A422BEB2130063895F /* ChannelVC.swift in Sources */,
 				CA30E0A222BEB1F80063895F /* ChatVC.swift in Sources */,
+				CAA8781E22BF921D00D5F3F7 /* LoginVC.swift in Sources */,
 				CAA8781822BF762B00D5F3F7 /* gradientView.swift in Sources */,
 				CAB8E83722BEAA570078CF91 /* AppDelegate.swift in Sources */,
 				CA30E09D22BEB0090063895F /* SWRevealViewController.m in Sources */,
+				CAA8781C22BF8C9400D5F3F7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
