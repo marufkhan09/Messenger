@@ -17,6 +17,7 @@
 		CAB8E83C22BEAA570078CF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB8E83A22BEAA570078CF91 /* Main.storyboard */; };
 		CAB8E83E22BEAA570078CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB8E83D22BEAA570078CF91 /* Assets.xcassets */; };
 		CAB8E84122BEAA570078CF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB8E83F22BEAA570078CF91 /* LaunchScreen.storyboard */; };
+		CADB2A6822C0C9540028E449 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB2A6722C0C9540028E449 /* CreateAccountVC.swift */; };
 		CB09C4AEE5F6BB36C20232DD /* Pods_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A00B9775D0F34BFCB8FF313 /* Pods_Messenger.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		CAB8E83D22BEAA570078CF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAB8E84022BEAA570078CF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB8E84222BEAA570078CF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADB2A6722C0C9540028E449 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		DA656E223F03AFC579F12CDF /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 				CA30E0A122BEB1F80063895F /* ChatVC.swift */,
 				CA30E0A322BEB2130063895F /* ChannelVC.swift */,
 				CAA8781D22BF921D00D5F3F7 /* LoginVC.swift */,
+				CADB2A6722C0C9540028E449 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				CA30E0A422BEB2130063895F /* ChannelVC.swift in Sources */,
 				CA30E0A222BEB1F80063895F /* ChatVC.swift in Sources */,
+				CADB2A6822C0C9540028E449 /* CreateAccountVC.swift in Sources */,
 				CAA8781E22BF921D00D5F3F7 /* LoginVC.swift in Sources */,
 				CAA8781822BF762B00D5F3F7 /* gradientView.swift in Sources */,
 				CAB8E83722BEAA570078CF91 /* AppDelegate.swift in Sources */,
